@@ -6,8 +6,13 @@ fetching console utility. Written in Erlang.
 
 |screenshot|
 
-Building and installing
------------------------
+Installing
+----------
+
++ From AUR - `rralle <https://aur.archlinux.org/packages/rralle/>`_
+
+Building and installing manually
+--------------------------------
 
 .. code-block:: sh
 
