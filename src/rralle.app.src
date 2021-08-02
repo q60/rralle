@@ -1,0 +1,15 @@
+{application, rralle,
+ [{description, "Random quote fetching console utility."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    hackney
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
