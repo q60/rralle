@@ -9,7 +9,8 @@ fetching console utility. Written in Erlang.
 Installing
 ----------
 
-+ From AUR - `rralle <https://aur.archlinux.org/packages/rralle/>`__
++ Install from AUR - `rralle-bin  <https://aur.archlinux.org/packages/rralle-bin/>`__, `rralle <https://aur.archlinux.org/packages/rralle/>`__
++ Use latest pre-built binary from `releases <https://github.com/q60/rralle/releases>`__
 
 Building and installing manually
 --------------------------------
