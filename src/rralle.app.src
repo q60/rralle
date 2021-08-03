@@ -1,6 +1,6 @@
 {application, rralle,
  [{description, "Random quote fetching console utility."},
-  {vsn, "0.1.0"},
+  {vsn, "0.1.1"},
   {registered, []},
   {applications,
    [kernel,
