@@ -6,7 +6,7 @@ TARGET = _build/default/bin/rralle
 all: build test
 
 build:
-	rebar3 compile
+	rebar3 get-deps
 	rebar3 escriptize
 
 test:
@@ -14,7 +14,6 @@ test:
 
 install:
 	install -Dm755 "$(TARGET)" "$(DESTDIR)/usr/bin/$(NAME)"
-	install -Dm644 "LICENSE" "$(DESTDIR)/usr/share/licenses/$(NAME)/LICENSE"
 
 uninstall:
-	rm -rfv "$(DESTDIR)/usr/bin/$(NAME)" "$(DESTDIR)/usr/share/licenses/$(NAME)"
+	rm -rfv "$(DESTDIR)/usr/bin/$(NAME)"
