@@ -1,4 +1,4 @@
-rrallë
+rrallë |erlang| |aur1| |aur2|
 ======
 
 **Rrallë** (IPA: [raːɫ], stylized as *rrallë*) is a random quote
@@ -37,3 +37,8 @@ Uninstalling
     sudo make uninstall
 
 .. |screenshot| image:: https://i.imgur.com/knPN9W7.jpg
+.. |erlang| image:: https://img.shields.io/badge/-Erlang-8c002f?style=for-the-badge&logo=erlang
+.. |aur1| image:: https://img.shields.io/aur/version/rralle?logo=archlinux&style=for-the-badge&label=rralle
+    :target: https://aur.archlinux.org/packages/rralle/
+.. |aur2| image:: https://img.shields.io/aur/version/rralle-bin?logo=archlinux&style=for-the-badge&label=rralle-bin
+    :target: https://aur.archlinux.org/packages/rralle-bin/
